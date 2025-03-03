@@ -28,7 +28,7 @@ bash ./install_plug.sh
 
 function install_include {
   cp $1 $VIM_INCLUDE
-  echo "source $1" >>$VIMRC
+  echo "source $VIM_INCLUDE/$1" >>$VIMRC
 }
 
 install_include vimspector_pre.vimrc
