@@ -6,7 +6,7 @@ if exists('+termguicolors')
 endif
 
 " For light version.
-set background=light
+set background=dark
 
 " Set contrast.
 " This configuration option should be placed before `colorscheme everforest`.
